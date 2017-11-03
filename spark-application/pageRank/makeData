@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {1..100000000}
+do
+   echo $((1+RANDOM % 100000000)) $((1+RANDOM % 100000000)) >> test.txt
+done
